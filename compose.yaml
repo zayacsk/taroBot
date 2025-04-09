@@ -1,0 +1,6 @@
+﻿services:
+  tarotgbot:
+    image: tarotgbot
+    build:
+      context: .
+      dockerfile: TaroTgBot/Dockerfile
